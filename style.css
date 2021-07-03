@@ -65,3 +65,27 @@ main {
   height: 50px;
   background-color: #aaa;
 }
+
+/* レスポンシブ対応 */
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .back-color{
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .back-color:first-child{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .back-color:last-child{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 40px;
+  }
+}
