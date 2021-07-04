@@ -15,40 +15,40 @@ main {
   display: flex;
 }
 
-.back-color{
+.back-color {
   background-color: #eeeeee;
   width: 300px;
   margin-right: 30px;
   padding: 10px;
-  position: relative
+  position: relative;
 }
 
-.back-color:last-child{
+.back-color:last-child {
   margin-right: 0;
 }
 
-.main-visual1{
+.main-visual1 {
   background-image: url(img/flow01.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
 }
 
-.main-visual2{
+.main-visual2 {
   background-image: url(img/flow02.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
 }
 
-.main-visual3{
+.main-visual3 {
   background-image: url(img/flow03.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
 }
 
-.step-num{
+.step-num {
   padding: 3px;
   position: absolute;
   top: 0;
@@ -57,35 +57,35 @@ main {
   color: #fff;
 }
 
-.title{
+.title {
   margin: 15px 0 5px;
 }
 
-.gray{
+.gray {
   height: 50px;
   background-color: #aaa;
 }
 
 /* レスポンシブ対応 */
-@media screen and (max-width:768px){
-  main{
+@media screen and (max-width: 768px) {
+  main {
     width: 100%;
     display: block;
   }
 
-  .back-color{
+  .back-color {
     width: 90%;
     margin: 20px auto;
   }
 
-  .back-color:first-child{
+  .back-color:first-child {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .back-color:last-child{
+  .back-color:last-child {
     margin-bottom: 0;
     margin-top: 0;
-    margin-right: ;
+    margin-right: auto;
   }
 }
